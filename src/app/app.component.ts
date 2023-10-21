@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tranction';
+
+
+  public getPresetDate() {
+    return new Date(1997, 6, 1, 12, 32);
+  }
+  
 }
